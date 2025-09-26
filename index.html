@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atacadão do Açaí</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --acai-roxo: #6a058d;
+            --acai-verde: #0a7343;
+            --acai-branco: #ffffff;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .line-decoration {
+            background-color: var(--acai-branco);
+            height: 2px;
+            width: 80%;
+            margin: 2rem auto;
+            border-radius: 9999px;
+        }
+
+        .header-title {
+            color: var(--acai-roxo);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .social-icon {
+            filter: invert(100%);
+        }
+
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <div class="bg-gray-800 text-white min-h-screen flex items-center justify-center p-8 relative">
+        <div class="absolute inset-0 bg-cover bg-center opacity-30" style="background-image: url('https://placehold.co/1920x1080/6a058d/ffffff?text=.');"></div>
+        <div class="container mx-auto max-w-4xl text-center relative z-10">
+            <div class="inline-block bg-green-600 rounded-full px-8 py-4 mb-4 shadow-lg">
+                <h1 class="text-5xl md:text-6xl font-extrabold text-white">Atacadão do Açaí</h1>
+                <p class="text-yellow-400 font-bold text-xl mt-1">DISTRIBUIDORA</p>
+            </div>
+            <p class="text-lg md:text-xl font-medium mb-8">O verdadeiro sabor do açaí, direto para sua casa!</p>
+            <div class="relative w-full max-w-lg mx-auto mb-8 rounded-lg overflow-hidden shadow-2xl">
+                <div class="absolute inset-0 bg-white opacity-20"></div>
+                <img src="img/logo.png" alt="Açaí Delicioso" class="w-full h-full object-cover rounded-lg">
+                <div class="absolute inset-0 flex items-center justify-center">
+                </div>
+            </div>
+            <a href="https://wa.me/5583987119442" target="_blank" class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
+                Pedir agora
+            </a>
+        </div>
+    </div>
+
+    <div class="line-decoration"></div>
+
+    <div class="bg-white py-16 px-8">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-12">Nossos produtos</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="bg-purple-50 p-6 rounded-xl shadow-lg transform transition duration-300 hover:scale-105">
+                    <div class="relative w-full h-64 rounded-xl overflow-hidden mb-6 shadow-md">
+                        <img src="img/morangos.png" alt="Açaí com frutas" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50">
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-gray-700 mb-2">Morango congelado </h3>
+                    <p class="text-gray-600">Morango congelado por apenas R$15,00 1Kg!(Espécie ou Pix)</p>
+                </div>
+                <div class="bg-purple-50 p-6 rounded-xl shadow-lg transform transition duration-300 hover:scale-105">
+                    <div class="relative w-full h-64 rounded-xl overflow-hidden mb-6 shadow-md">
+                        <img src="img/pop.png" alt="Açaí com granola" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50">
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-gray-700 mb-2">Açaí para revenda</h3>
+                    <p class="text-gray-600">Açaí de 5L a partir de R$29,90<br/>(Espécie ou Pix)</p>
+                </div>
+                <div class="bg-purple-50 p-6 rounded-xl shadow-lg transform transition duration-300 hover:scale-105">
+                    <div class="relative w-full h-64 rounded-xl overflow-hidden mb-6 shadow-md">
+                        <img src="img/sorvete.png" alt="Açaí puro" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50">
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-gray-700 mb-2">Sorvete do Norte</h3>
+                    <p class="text-gray-600">Mais de 60 sabores por apenas R$34,99<br/>(Espécie ou Pix)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="line-decoration"></div>
+
+    <footer class="bg-gray-900 text-white py-12 px-8">
+        <div class="container mx-auto flex flex-col md:flex-row items-center md:items-start justify-between">
+            <div class="mb-8 md:mb-0 text-center md:text-left">
+                <h3 class="text-2xl font-bold mb-4 text-purple-400">Acompanhe-nos</h3>
+                <ul class="space-y-4">
+                    <li>
+                        <a href="https://www.instagram.com/atacadaodoacai.oficial/?next=%2F" target="_blank" class="flex items-center justify-center md:justify-start text-white hover:text-purple-400 transition-colors">
+                            <img src="https://www.svgrepo.com/show/521711/instagram.svg" alt="Instagram Icon" class="h-6 w-6 mr-2 social-icon">
+                            Instagram
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/5583987119442" target="_blank" class="flex items-center justify-center md:justify-start text-white hover:text-purple-400 transition-colors">
+                            <img src="https://www.svgrepo.com/show/521923/whatsapp.svg" alt="WhatsApp Icon" class="h-6 w-6 mr-2 social-icon">
+                            WhatsApp
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="text-center md:text-right">
+                <h3 class="text-2xl font-bold mb-4 text-purple-400">Localização</h3>
+                <a href="https://maps.app.goo.gl/utnTG3F7EsatHiHs6" target="_blank" class="flex items-center justify-center md:justify-end text-white hover:underline">
+                    <img src="https://www.svgrepo.com/show/315093/map-location.svg" alt="Location Icon" class="h-6 w-6 mr-2 social-icon">
+                    Rua Carteiro Olívio Pontes, 45 - Água Fria
+                </a>
+            </div>
+        </div>
+
+        <div class="mt-8 border-t border-gray-700 pt-8 text-center text-gray-400">
+            <p>&copy; 2023 Atacadão do Açaí. Todos os direitos reservados.</p>
+            <p class="mt-2 flex items-center justify-center">Desenvolvido por
+                <a href="https://github.com/v3sp1n3" target="_blank" class="flex items-center text-purple-400 hover:text-purple-500 transition-colors ml-1">
+                    <img src="https://www.svgrepo.com/show/512317/github-142.svg" alt="GitHub Icon" class="h-6 w-6 mr-1 social-icon">
+                    v3sp1n3
+                </a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
